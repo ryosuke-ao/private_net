@@ -17738,3 +17738,33 @@ INFO [10-18|12:41:21.392] Stopping Ethereum protocol
 INFO [10-18|12:41:21.392] Ethereum protocol stopped 
 INFO [10-18|12:41:21.392] Transaction pool stopped 
 INFO [10-18|12:41:21.393] Database closed                          database=/Users/ryosuke/geth/private_net/geth/chaindata
+INFO [10-18|12:52:15] Maximum peer count                       ETH=25 LES=0 total=25
+INFO [10-18|12:52:15] Starting peer-to-peer node               instance=Geth/v1.8.0-stable-5f540757/darwin-amd64/go1.9.4
+INFO [10-18|12:52:15] Allocated cache and file handles         database=/Users/ryosuke/geth/private_net/geth/chaindata cache=768 handles=128
+WARN [10-18|12:52:15] Upgrading database to use lookup entries 
+INFO [10-18|12:52:15] Initialised chain configuration          config="{ChainID: 15 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: <nil> Byzantium: <nil> Engine: unknown}"
+INFO [10-18|12:52:15] Disk storage enabled for ethash caches   dir=/Users/ryosuke/geth/private_net/geth/ethash count=3
+INFO [10-18|12:52:15] Disk storage enabled for ethash DAGs     dir=/Users/ryosuke/.ethash                      count=2
+INFO [10-18|12:52:15] Initialising Ethereum protocol           versions="[63 62]" network=10
+INFO [10-18|12:52:15] Loaded most recent local header          number=4355 hash=ae9cd2…57fcac td=718551152
+INFO [10-18|12:52:15] Loaded most recent local full block      number=4355 hash=ae9cd2…57fcac td=718551152
+INFO [10-18|12:52:15] Loaded most recent local fast block      number=4355 hash=ae9cd2…57fcac td=718551152
+INFO [10-18|12:52:15] Loaded local transaction journal         transactions=0 dropped=0
+INFO [10-18|12:52:15] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [10-18|12:52:15] Blockchain not empty, fast sync disabled 
+INFO [10-18|12:52:15] Starting P2P networking 
+INFO [10-18|12:52:15] RLPx listener up                         self="enode://0d14d201f30c836b50d5e615d8efc5ccf9f08a3774d51c5b6b82c77ba080a7cecc667b31048d14f401f01d8f9fd873c431ab1791d7aecd504b9191bfd7e4eba6@[::]:61452?discport=0"
+INFO [10-18|12:52:15] IPC endpoint opened                      url=/Users/ryosuke/geth/private_net/geth.ipc
+INFO [10-18|12:52:15] HTTP endpoint opened                     url=http://localhost:8545                    cors=* hvosts=localhost
+INFO [10-18|12:52:15] Database deduplication successful        deduped=0
+INFO [10-18|12:52:15] Etherbase automatically configured       address=0x143aE1B7AbD7CF5448BF6d14500048AE39d7E03a
+INFO [10-18|13:33:20] Submitted transaction                    fullhash=0xec4df4e6e23da5718113c230d1c72dc25172786ddc6938fedb0f235199efc389 recipient=0xE91571860f556CFe2406e9cDC3242C6e659bd4a2
+INFO [10-18|13:35:59] HTTP endpoint closed                     url=http://localhost:8545
+INFO [10-18|13:35:59] IPC endpoint closed                      endpoint=/Users/ryosuke/geth/private_net/geth.ipc
+INFO [10-18|13:35:59] Writing cached state to disk             block=4228 hash=dcc5cb…9e4026 root=e86928…b71a07
+INFO [10-18|13:35:59] Persisted trie from memory database      nodes=0 size=0.00B time=2.567µs gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [10-18|13:35:59] Blockchain manager stopped 
+INFO [10-18|13:35:59] Stopping Ethereum protocol 
+INFO [10-18|13:35:59] Ethereum protocol stopped 
+INFO [10-18|13:35:59] Transaction pool stopped 
+INFO [10-18|13:35:59] Database closed                          database=/Users/ryosuke/geth/private_net/geth/chaindata

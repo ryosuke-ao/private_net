@@ -27,3 +27,23 @@
 =============== Oct 18, 2018 (JST) ===============
 12:41:21.392202 db@close closing
 12:41:21.392955 db@close done T·750.882µs
+=============== Oct 18, 2018 (JST) ===============
+12:52:15.400756 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:52:15.400996 skipping CURRENT.bak: invalid file num: strconv.ParseInt: parsing "bak": invalid syntax
+12:52:15.401057 version@stat F·[2] S·781B[781B] Sc·[0.50]
+12:52:15.401072 db@open opening
+12:52:15.401178 journal@recovery F·1
+12:52:15.404527 journal@recovery recovering @6
+12:52:15.484039 memdb@flush created L0@8 N·41251 S·1MiB "B\x00\x00..\x81\xc9T,v39175":"\xe8i(..\xb7\x1a\a,v41264"
+12:52:15.486674 version@stat F·[3] S·1MiB[1MiB] Sc·[0.75]
+12:52:15.487611 db@janitor F·5 G·0
+12:52:15.487633 db@open done T·86.536443ms
+13:08:00.011164 table@compaction L0·3 -> L1·0 S·1MiB Q·41268
+13:08:00.034917 table@build created L1@11 N·28195 S·1MiB "B\x00\x00..\x81\xc9T,v39175":"\xe8i(..\xb7\x1a\a,v41264"
+13:08:00.035008 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+13:08:00.035350 table@compaction committed F-2 S-533KiB Ke·0 D·13067 T·24.140272ms
+13:08:00.035541 table@remove removed @8
+13:08:00.035928 table@remove removed @5
+13:08:00.035983 table@remove removed @2
+13:35:59.618742 db@close closing
+13:35:59.618824 db@close done T·81.332µs
