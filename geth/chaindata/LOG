@@ -47,3 +47,62 @@
 13:08:00.035983 table@remove removed @2
 13:35:59.618742 db@close closing
 13:35:59.618824 db@close done T·81.332µs
+=============== Oct 18, 2018 (JST) ===============
+13:39:46.062156 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:39:46.062251 skipping CURRENT.bak: invalid file num: strconv.ParseInt: parsing "bak": invalid syntax
+13:39:46.062325 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+13:39:46.062338 db@open opening
+13:39:46.062383 journal@recovery F·1
+13:39:46.064914 journal@recovery recovering @9
+13:39:46.065660 memdb@flush created L0@12 N·3 S·290B "Blo..ion,v41266":"dbU..ata,v41268"
+13:39:46.068376 version@stat F·[1 1] S·1MiB[290B 1MiB] Sc·[0.25 0.01]
+13:39:46.069239 db@janitor F·4 G·0
+13:39:46.069256 db@open done T·6.910108ms
+13:39:58.291906 db@close closing
+13:39:58.292076 db@close done T·168.148µs
+=============== Oct 18, 2018 (JST) ===============
+13:41:04.263615 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:41:04.263738 skipping CURRENT.bak: invalid file num: strconv.ParseInt: parsing "bak": invalid syntax
+13:41:04.263803 version@stat F·[1 1] S·1MiB[290B 1MiB] Sc·[0.25 0.01]
+13:41:04.264452 db@open opening
+13:41:04.264532 journal@recovery F·1
+13:41:04.267331 journal@recovery recovering @13
+13:41:04.272838 memdb@flush created L0@15 N·2 S·243B "Blo..ion,v41270":"Las..der,v41271"
+13:41:04.275726 version@stat F·[2 1] S·1MiB[533B 1MiB] Sc·[0.50 0.01]
+13:41:04.276645 db@janitor F·5 G·0
+13:41:04.276668 db@open done T·12.201221ms
+13:41:36.563380 db@close closing
+13:41:36.563571 db@close done T·181.718µs
+=============== Oct 18, 2018 (JST) ===============
+13:42:04.809587 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:42:04.809676 skipping CURRENT.bak: invalid file num: strconv.ParseInt: parsing "bak": invalid syntax
+13:42:04.809749 version@stat F·[2 1] S·1MiB[533B 1MiB] Sc·[0.50 0.01]
+13:42:04.809763 db@open opening
+13:42:04.809810 journal@recovery F·1
+13:42:04.812441 journal@recovery recovering @16
+13:42:04.813123 memdb@flush created L0@18 N·2 S·243B "Blo..ion,v41273":"Las..der,v41274"
+13:42:04.815826 version@stat F·[3 1] S·1MiB[776B 1MiB] Sc·[0.75 0.01]
+13:42:04.816791 db@janitor F·6 G·0
+13:42:04.816807 db@open done T·7.037377ms
+=============== Oct 18, 2018 (JST) ===============
+13:43:10.132513 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:43:10.132666 skipping CURRENT.bak: invalid file num: strconv.ParseInt: parsing "bak": invalid syntax
+13:43:10.138251 version@stat F·[3 1] S·1MiB[776B 1MiB] Sc·[0.75 0.01]
+13:43:10.138287 db@open opening
+13:43:10.138394 journal@recovery F·1
+13:43:10.141181 journal@recovery recovering @19
+13:43:10.142025 memdb@flush created L0@21 N·2 S·243B "Blo..ion,v41276":"Las..der,v41277"
+13:43:10.144659 version@stat F·[4 1] S·1MiB[1019B 1MiB] Sc·[1.00 0.01]
+13:43:10.145449 db@janitor F·7 G·0
+13:43:10.145466 db@open done T·7.170605ms
+13:43:10.145566 table@compaction L0·4 -> L1·1 S·1MiB Q·41278
+13:43:10.170166 table@build created L1@24 N·28197 S·1MiB "B\x00\x00..\x81\xc9T,v39175":"\xe8i(..\xb7\x1a\a,v41264"
+13:43:10.170237 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+13:43:10.170467 table@compaction committed F-4 S-951B Ke·0 D·7 T·24.807394ms
+13:43:10.170564 table@remove removed @21
+13:43:10.170642 table@remove removed @18
+13:43:10.170682 table@remove removed @15
+13:43:10.170720 table@remove removed @12
+13:43:10.170823 table@remove removed @11
+15:10:23.049430 db@close closing
+15:10:23.049812 db@close done T·576.03µs
