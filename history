@@ -1,0 +1,11 @@
+eth.accounts
+eth.account[0]
+eth.accounts[0]
+eth.caoinbase
+eth.accounts[0]
+eth.accounts
+eth.caoinbase
+eth.coinbase
+eth.getBlock(0)
+miner.start(1)
+eth.mining
